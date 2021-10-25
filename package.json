@@ -1,0 +1,34 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "Automated software testing with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarosiF/cypress-automation.git"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "automation"
+  ],
+  "author": "Fanni Marosi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarosiF/cypress-automation/issues"
+  },
+  "homepage": "https://github.com/MarosiF/cypress-automation#readme",
+  "devDependencies": {
+    "@percy/cli": "^1.0.0-beta.69",
+    "@percy/cypress": "^3.1.1",
+    "cypress": "^8.6.0",
+    "cypress-image-diff-js": "^1.15.3"
+  },
+  "dependencies": {
+    "cypress-visual-regression": "^1.6.1",
+    "prettier": "^2.4.1"
+  }
+}

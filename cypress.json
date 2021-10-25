@@ -1,0 +1,17 @@
+{
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 15000,
+  "pageLoadTimeout": 60000,
+  "viewportHeight": 1980,
+  "viewportWidth": 1080,
+  "execTimeout": 60000,
+  "waitForAnimations": true,
+  "animationsDistanceTreshold": 20,
+  "requestTimeout": 15000,
+  "responseTimeout": 15000,
+  "video": false,
+  "failOnStatusCode": false,
+  "screenshotsFolder": "./cypress/snapshots/actual",
+  "trashAssetsBeforeRuns": true,
+  "projectId": "ukompc"
+}
