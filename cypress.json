@@ -11,8 +11,8 @@
   "responseTimeout": 15000,
   "video": true,
   "failOnStatusCode": false,
-  "screenshotsFolder": "assets/screenshots",
-  "videosFolder": "assets/videos",
+  "screenshotsFolder": "cypress/screenshots",
+  "videosFolder": "cypress/videos",
   "trashAssetsBeforeRuns": true,
   "projectId": "ukompc"
 }
