@@ -9,9 +9,10 @@
   "animationsDistanceTreshold": 20,
   "requestTimeout": 15000,
   "responseTimeout": 15000,
-  "video": false,
+  "video": true,
   "failOnStatusCode": false,
-  "screenshotsFolder": "./cypress/snapshots/actual",
+  "screenshotsFolder": "assets/screenshots",
+  "videosFolder": "assets/videos",
   "trashAssetsBeforeRuns": true,
   "projectId": "ukompc"
 }
