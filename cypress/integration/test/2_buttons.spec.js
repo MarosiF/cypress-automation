@@ -48,4 +48,8 @@ describe('Browser actions', () => {
 			.should('eq', 11)
 	})
 
+	it('should take a snapshot', () => {
+		cy.screenshot();
+	})
+
 })
