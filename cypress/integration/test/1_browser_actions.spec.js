@@ -19,9 +19,9 @@ describe('Browser actions', () => {
 		cy.get('h1').should('be.visible')
 	})
 
-	it('should check for correct element on the page', () => {
+	/*it('should check for correct element on the page', () => {
 		cy.get('h6').should('be.visible')
-	})
+	})*/
 
 	//Implicit waits, Pause, Debug
 	it('should wait for 3 seconds', () => {

@@ -16,10 +16,11 @@ describe('Browser actions', () => {
 		cy.get('a').contains('Poetry').click()
 	})
 
-	it('should click on Olio book detail', () => {
+	/*it('should click on Olio book detail', () => {
 		//targeting an html element
 		cy.get('a').contains('Moin Bene the unicorn').click()
 	})
+	*/
 
 	it('should have correct price tag', () => {
 		//targeting a class
