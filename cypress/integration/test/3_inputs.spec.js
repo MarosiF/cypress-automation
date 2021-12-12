@@ -38,7 +38,7 @@ describe('Working with inputs', () => {
 	})
 
 
-	//Interacting witg Checkbox
+	//Interacting with Checkbox
 	it('should mark checkbox', () => {
 		//targeting an attribute, use #id_name
 		//make sure input is clear, input should be blank

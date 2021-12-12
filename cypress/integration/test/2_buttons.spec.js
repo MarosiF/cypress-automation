@@ -26,6 +26,12 @@ describe('Browser actions', () => {
 		//targeting a class
 		cy.get('.price_color').contains('£23.88')
 	})
+	
+	it('should have correct price tag', () => {
+		//targeting a class
+		cy.get('.price_color').contains('£23.88')
+	})
+	
 
 	it('should click on Home', () => {
 		//targeting an html element
