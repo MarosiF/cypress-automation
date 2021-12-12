@@ -10,9 +10,11 @@
   "requestTimeout": 15000,
   "responseTimeout": 15000,
   "video": true,
+  "videoCompression": false,
+  "videoUploadOnPasses": true,
   "failOnStatusCode": false,
-  "screenshotsFolder": "cypress/screenshots",
-  "videosFolder": "cypress/videos",
+  "screenshotsFolder": "./cypress/screenshots",
+  "videosFolder": "./cypress/videos",
   "trashAssetsBeforeRuns": true,
   "projectId": "ukompc"
 }
