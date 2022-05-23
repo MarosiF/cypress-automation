@@ -24,8 +24,12 @@
   "devDependencies": {
     "@percy/cli": "^1.0.0-beta.69",
     "@percy/cypress": "^3.1.1",
-    "cypress": "^8.6.0",
-    "cypress-image-diff-js": "^1.15.3"
+    "cypress": "^9.6.1",
+    "cypress-image-diff-js": "^1.15.3",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0"
   },
   "dependencies": {
     "cypress-visual-regression": "^1.6.1",
